@@ -1,39 +1,21 @@
 # Environmental-Public-Surveillance-System-gm
 
-This template should help get you started developing with Vue 3 in Vite.
+环保公众监督系统的网格员端，基于 Vue 3 + Vite 构建。
 
-## Recommended IDE Setup
+## 主要功能
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+- 网格员登录
+- 查看指派给自己的反馈任务
+- 提交实测的AQI数据（包括二氧化硫、一氧化碳和悬浮颗粒物的浓度值）
 
-## Type Support for `.vue` Imports in TS
+## 技术栈
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+- Vue 3
+- Vite
+- Element Plus
 
-## Customize configuration
+## 如何运行
 
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
+### 安装依赖
 ```sh
 npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
